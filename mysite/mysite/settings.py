@@ -80,6 +80,8 @@ DATABASES = {
         'NAME': 'mysql',
         'HOST': '127.0.0.1',
         'USER': 'root',
+        # uncomment below and `test_autocommit` will pass
+        # 'OPTIONS':{'init_command': 'set autocommit=1'},
     }
 }
 
